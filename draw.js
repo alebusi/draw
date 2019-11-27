@@ -14,9 +14,9 @@ var start = function(coors) {
 };
 var move = function(coors) {
     if (this.isDrawing) {
-        context.strokeStyle = "#000";
+        context.strokeStyle = "#FFF";
         context.lineJoin = "round";
-        context.lineWidth = 10;
+        context.lineWidth = 12;
         context.lineTo(coors.x, coors.y);
         context.stroke();
     }
