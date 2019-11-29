@@ -68,6 +68,6 @@ window.onresize = function(e) {
     canvas.height = document.body.clientHeight;
 };
 
-aggiorna() {
+function aggiorna() {
     location.reload();
     };
