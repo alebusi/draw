@@ -66,8 +66,7 @@ document.body.addEventListener('touchmove', function(e) {
 window.onresize = function(e) {
     canvas.width = document.body.clientWidth;
     canvas.height = document.body.clientHeight;
-
+};
 function aggiorna() {
     location.reload();
-    };
 };
