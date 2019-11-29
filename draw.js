@@ -67,3 +67,7 @@ window.onresize = function(e) {
     canvas.width = document.body.clientWidth;
     canvas.height = document.body.clientHeight;
 };
+
+aggiorna {
+    location.reload();
+    };
