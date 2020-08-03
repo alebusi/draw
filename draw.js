@@ -41,7 +41,8 @@ var draw = function(e) {
         x: e.clientX || e.targetTouches[0].pageX,
         y: e.clientY || e.targetTouches[0].pageY
     };
-    coors.x-=200;
+    /*coors.x-=200;*/
+    coors.y-=50;
     drawer[e.type](coors);
 }
 canvas.addEventListener('mousedown', draw, false);
